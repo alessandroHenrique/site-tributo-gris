@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: 24px 0;
+    background-color: #48d5af;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header h1 {
+    font-size: 42px;
+}
+
+header li a {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-list li {
+    display: inline;
+    margin-left: 16px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+}
+
+img {
+    width: 50%;
+    margin-right: 16px;
+}
+
+section#about {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+#about .container {
+    align-items: flex-start;
+}
+
+section#where-to-get {
+    margin-bottom: 32px;
+}
+
+#where-to-get .container {
+    display: block;
+}
+
+.brands li {
+    display: inline;
+}
+
+.brands img {
+    width: 24px;
+    margin-right: 8px;
+}
+
+#give-opinion .container {
+    display: block;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 320px;
+}
+
+form textarea {
+    height: 180px;
+    resize: none;
+}
+
+form button {
+    background-color: #48d5af;
+    border: none;
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: #65eec9;
+}
+
+form input:focus,
+form textarea:focus {
+    outline-color: #48d5af;;
+}
+
+footer .container {
+    justify-content: left;
+    font-size: 12px;
+}
+
+footer img {
+    width: 100px;
+    margin-right: 0;
+}

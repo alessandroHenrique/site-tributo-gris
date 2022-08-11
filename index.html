@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site tributo para o jogo Gris</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Gris</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#about">Sobre o jogo</a></li>
+                    <li><a href="#where-to-get">Onde adquirir</a></li>
+                    <li><a href="#give-opinion">Deixe sua opinião</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <img src="./images/gris_capa.jpeg" alt="Gris logo">
+                <div>
+                    <h2>Sobre o jogo</h2>
+                    <p>
+                        Gris é uma garota que se vê, de repente, sem cores e sem vozes.
+                        Seu mundo rui e ela cai (e cai fundo), de maneira inevitável, em uma terra branca,
+                        onde se vê fraca e desnorteada. Ela precisa, portanto, se recompor. Seguir adiante é a única alternativa.
+                        Explore os cenários e vá coletando pequenas estrelas igualmente perdidas – aqui, mementos representados por pequenos globos luminosos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="where-to-get">
+            <div class="container">
+                <h2>Onde adquirir</h2>
+                <ul class="brands">
+                    <li>
+                        <a href="https://store.steampowered.com/app/683320/GRIS/" target="_blank"><img src="./images/steam_icon.jpeg" alt="Steam logo" title="Steam" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.gog.com/en/game/gris" target="_blank"><img src="./images/gog_icon.jpeg" alt="GOG logo" title="GOG" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.xbox.com/en-US/games/store/gris/9nhhp2h0zp98" target="_blank"><img src="./images/xbox.jpeg" alt="XBOX logo" title="XBOX" /></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="give-opinion">
+            <div class="container">
+                <h2>Deixe sua análise</h2>
+                <form>
+                    <input required type="text" placeholder="Nome" />
+                    <input type="email" placeholder="Email" />
+                    <textarea required placeholder="Sua opinião"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <div class="container">
+            <img src="./images/nomada_studio_logo.jpeg" alt="Nomada Studio logo">
+            <span>Nomada Studio &copy; 2018</span>
+        </div>
+    </footer>
+</body>
+</html>
